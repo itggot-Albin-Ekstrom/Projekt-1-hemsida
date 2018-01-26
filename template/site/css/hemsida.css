@@ -1,7 +1,7 @@
 div.container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(7, 1fr); 
+    grid-template-rows: repeat(6, 1fr); 
     background-color: rgb(202, 23, 17);
     width: 90vw;
     height: 90vh;
@@ -17,8 +17,16 @@ div.login{
 div.konto{
     grid-column: 3/4;
     text-align: center;
-    margin: auto
-    
+    margin: auto;    
 }
 
+div.menu{
+    grid-column: 1/2;
+    grid-row: 1/1;
+}
 
+div.frontgretting{
+    grid-column: 1/4;
+    grid-row: 2/5;
+    text-align: center;
+}
