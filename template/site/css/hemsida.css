@@ -12,17 +12,20 @@ div.login{
     grid-column: 2/3;
     text-align: center;
     margin: auto;
+    background-color: #00437F;
 }
 
 div.konto{
     grid-column: 3/4;
     text-align: center;
     margin: auto;    
+    background-color: #00437F;
 }
 
 div.menu{
     grid-column: 1/2;
     grid-row: 1/1;
+    background-color: #00437F;
 }
 
 div.frontgretting{
