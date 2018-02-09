@@ -33,6 +33,7 @@ div.login{
     text-align: center;
     margin: auto;
     text-decoration-color: #FFFFFF;
+    font-size: 20px;
    
 }
 
@@ -40,7 +41,7 @@ div.konto{
     grid-column: 3/4;
     text-align: center;
     margin: auto;    
-    
+    font-size: 20px;
 }
 
 div.menu{
@@ -48,6 +49,7 @@ div.menu{
     grid-row: 1/1;
     text-align: center;
     margin: auto;
+    
    
 }
 
@@ -65,7 +67,7 @@ text.text{
     text-align: center;
     margin: auto;
     color: #C5DEFF;
-    font-size: 20px;
+    font-size: 35px;
 }
 
 div.button{
@@ -84,7 +86,8 @@ Button.bokapass{
     color: #00357F;
     font-size: 15px;
     border-radius: 8px;
-    height: 50px;
+    height: 60px;
+    width: 150px;
     
 }
 
