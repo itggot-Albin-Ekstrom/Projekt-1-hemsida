@@ -1,0 +1,38 @@
+body{
+    background-color: #31527F;
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    background-color: #00437F;
+    block-size: 100px; 
+}
+
+div.login{
+    grid-column: 2/3;
+    text-align: center;
+    margin: auto;
+    text-decoration-color: #FFFFFF;
+    font-size: 20px;
+}
+
+div.konto{
+    grid-column: 3/4;
+    text-align: center;
+    margin: auto;    
+    font-size: 20px;
+}
+
+.hamburgare_meny{
+    display: none;  
+    grid-template-columns: (3, 1fr);
+    grid-template-rows: (4, 1fr);
+    width: 103px;
+    height: 336px;
+    background-color: #C5DEFF;
+    position: absolute; 
+}
